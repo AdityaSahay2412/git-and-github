@@ -15,3 +15,8 @@ Login with valid credentials
     Click Button    id:login-button
     Page Should Contain Element    xpath://div[@class='inventory_list']
     [Teardown]    Close Browser
+
+
+Login with invalid credentials
+    Input Text    id:user-name    invalid_user
+    Input Text    id:password    wrong_password
