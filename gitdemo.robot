@@ -20,3 +20,4 @@ Login with valid credentials
 Login with invalid credentials
     Input Text    id:user-name    invalid_user
     Input Text    id:password    wrong_password
+    [Teardown]    Close Browser
