@@ -21,3 +21,6 @@ Login with invalid credentials
     Input Text    id:user-name    invalid_user
     Input Text    id:password    wrong_password
     [Teardown]    Close Browser
+
+Login Test with demogit
+    input Text id:user-name    test
